@@ -51,7 +51,7 @@ public function rules() {
 4 - Фрон написал на bootstrap + jquery
 5 - Соблюдаем чистоту в контроллерах, поэтому в рамках этой задачи вынес сохраненеие в Action класс
 
-<br><img src="public/screenshot.png">
+<br><img src="https://raw.githubusercontent.com/deen8122/phone-book-laravel/main/public/screenshot.png">
 
 ## Не сделано, так как не было в задании
 1 - каждая запись добавляется без проверки номера.Хотя, было бы логично проверить перед сохраненеим и обновить существующую запись<br>
