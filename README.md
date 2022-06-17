@@ -70,4 +70,10 @@ docker-compose up -d <br>
 docker exec -it project_app bash <br>
 внутри контейнера выполняем: php artisan migrate && php artisan db:seed<br>
 Проект доступен по адресу: http://localhost:8876/
+<br>
+Если будут проблемы с правами на запись файлов лога или загрузки изображения:
+<br>
+sudo chmod 777 -R ./
+<br>
+
   
