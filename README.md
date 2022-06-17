@@ -61,4 +61,13 @@ public function rules() {
 
 
 ## Устновка
+<b>Обычная</b><br>
 Установка стандартная, клонировать, запустить миграцию php artisan migrate && php artisan db:seed 
+<br>
+<b>через Docker</b>
+<br>
+docker-compose up -d <br>
+docker exec -it project_app bash <br>
+внутри контейнера выполняем: php artisan migrate && php artisan db:seed<br>
+Проект доступен по адресу: http://localhost:8876/
+  
